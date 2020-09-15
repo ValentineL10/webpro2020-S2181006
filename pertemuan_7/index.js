@@ -64,7 +64,7 @@
 //    console.log(x, ':', buku[x]);
 //  }
 // //
-// //for of loop
+// /or of loop
 // const buku = ["Infinity Thanos"}
 // //
 // for (x of buku) {
@@ -87,3 +87,4 @@ do {
   console.log(i);
   i++;
 } while (i <= 10);
+ //

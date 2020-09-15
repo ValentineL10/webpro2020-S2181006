@@ -27,7 +27,7 @@
  //kata kunci neww
 // const mhs2 = new Object();
 // mhs2.namaDepan = "Jane";
-// mhs2.namaBelakang = "Smith";
+// mhs2.namaBelakang = "Smith"; 
 
 // Mengakses properti Objek 
 //1. Do notation 
