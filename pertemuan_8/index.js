@@ -1,19 +1,24 @@
-let account = {
-    name: "Valentine",
-    expenses: [],
+let account = {             // Object
+    name: "Mario",          // Properti 1 
+    expenses: [],           // Properti 2
     addExpenses: function(description, amount){
         this.expenses.push({"description": description, "amount": amount});
     },
+            // addExpenses itu function. description dan amount adalah argument
+
+
     getAccountSummary(){
-      let total = 0;
+      let sum = 0;
       this.expenses.forEach((item)=>{
-        total+=item.amount;
+        sum+=item.amount;
       })
-      return total;
+      return sum;
     }
+            // ini adalah function yang kegunaannya menghitung atau kalkulasi jumlah amount.
+
 };
-account.addExpenses('Beli Pakaian', 15000);
-account.addExpenses('Beli Pulsa_Data', 50000);
-account.addExpenses('Beli Sling_bag', 30000);
-account.addExpenses('Beli Roti',20000);
-console.log("Total pengeluaran" + account.name + 'adalah Rp.' + account.getAccountSummary());
+account.addExpenses("Beli Mobil", 90000000); // deklarasi dari rumah dan harganya
+    account.addExpenses("Beli Motor", 15000000); // deklarasi dari rumah dan harganya
+        account.addExpenses("Beli Sepeda", 6000000); // deklarasi dari rumah dan harganya
+            account.addExpenses("Beli Rumah", 1000000000); // deklarasi dari rumah dan harganya
+                console.log("Total pengeluaran" + account.name + "adalah Rp." + account.getAccountSummary()); // output dari pengeluaran
