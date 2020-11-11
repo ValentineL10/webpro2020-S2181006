@@ -12,13 +12,13 @@ export const person = [
         phone: "082xxxxxxx",
     },
     {
-        name: "Danica ",
+        name: "Danica Massie",
         institution: "Unsrat",
         address: "Manado",
         phone: "089xxxxxxx",
     },
     {
-        name: "Axcel",
+        name: "Axcel Weku",
         institution: "Unklab",
         address: "Manado",
         phone: "081xxxxxxx",
