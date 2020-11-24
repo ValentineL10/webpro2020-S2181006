@@ -1,4 +1,11 @@
-/* .header-container {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+   font-family: 'Open Sans',serif;
+   font-style: inherit;
+   color: greenyellow;
+}
+
+.header-container {
   margin: 15px;
   background-color: yellow;
   border-width: 2px;
@@ -10,40 +17,9 @@
   padding: 10px;
   border-radius: 10px;
   border-width: 3px;
-  border-color: black;
+  border-color: rgb(228, 5, 5);
   border-style: solid;
   font-weight: bold;
-  background-color: rgb(226, 124, 212);
-} */
-
-body {
-  background: #c0ffee;
-  }
-  .App {
-  margin: 1em;
-  font-family: "Avenir", "Arial", sans-serif;
-  }
-  .list {
-  list-style: none;
-  }
-  .list-item {
-  padding: 1em;
-  display: flex;
-  flex: 1;
-  align-items: center;
-  border: 0.25em solid #cacaca;
-  margin-bottom: 1em;
-  }
-  .list-item-image-container {
-  flex: 1;
-  }
-  .list-item-image-container > img {
-  height: 4em;
-  }
-  .list-item-name {
-  flex: 3;
-  }
-  .list-item-power {
-  font-weight: bolder;
-  color: #db16a0;
-  }
+  background-image: url(https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg);
+  background-size: 450px;
+}
